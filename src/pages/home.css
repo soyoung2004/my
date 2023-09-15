@@ -1,0 +1,49 @@
+/* home.css */
+
+/* 부모 컨테이너에 Flexbox를 적용하여 자식 요소를 가로로 정렬 */
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* h1 요소에 스타일 적용 */
+.Title {
+  font-size: 70px;
+  color: #00ff26;
+  margin: 20px 0;
+}
+
+/* Date, Title, Price에 스타일 적용 */
+.Ditle,
+.Price {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.Date,
+
+{
+  font-size: 10px;
+  margin: 5px 0;
+  padding: auto;
+}
+
+/* 버튼 스타일 적용 */
+.button1 {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button1:hover {
+  background-color: #0056b3;
+}
+
+.active {
+  font-weight: bold;
+}
